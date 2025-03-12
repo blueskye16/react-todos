@@ -2,6 +2,7 @@
 
 /**
  * @see https://prettier.io/docs/configuration
+ * @see https://github.com/tailwindlabs/prettier-plugin-tailwindcss
  * @type {import("prettier").Config}
  */
 const config = {
@@ -14,6 +15,7 @@ const config = {
   // "tailwindAttributes": ["class"],
   // "tailwindAttributes": ["myClassList"],
   // "tailwindConfig": "./styles/tailwind.config.js",
+  // "tailwindPreserveDuplicates": true, // pluginnya auto ngehapus class duplikat, buat jaga"
 };
 
 export default config;
